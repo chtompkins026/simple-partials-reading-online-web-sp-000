@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'pry-byebug'
+
 gem 'bundler', '~> 1.16', '>= 1.16.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
@@ -34,7 +34,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'pry-byebug'
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'database_cleaner'
